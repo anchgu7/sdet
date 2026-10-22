@@ -1,0 +1,6 @@
+{
+    "playwright.configs": [
+        "examples/playwright.config.ts",
+        "automation_exercise_sites/playwright.config.ts"
+    ]
+}

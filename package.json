@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:example": "npx playwright test --config=examples/playwright.config.ts",
+    "test:automation_exercise_site": "npx playwright test --config=examples/playwright.config.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
